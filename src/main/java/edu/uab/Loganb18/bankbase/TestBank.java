@@ -2,10 +2,10 @@
  * Author: Logan Burkett <Loganb18@uab.edu>
  * Assignment:  bankbase - EE333 Spring 2022
  *
- * Credits:  (if any for sections of code)
+ * Credits: David Green
  */
 
-package edu.uab.ee333.bankinheritance;
+package edu.uab.Loganb18.bankbase;
 
 /** */
 public class TestBank {
@@ -17,7 +17,7 @@ public class TestBank {
    */
   public static void main(String[] args) {
 
-    CheckingAccount mine = new CheckingAccount("David Green", 200000);
+    CheckingAccount mine = new CheckingAccount("Team 1", 200000);
     System.out.println("The account has " + mine.getBalance());
     System.out.println(mine);
 

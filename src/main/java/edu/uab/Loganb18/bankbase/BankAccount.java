@@ -1,18 +1,18 @@
-package edu.uab.ee333.bankinheritance;
-
-/**
- * @author David Green DGreen@uab.edu
+/*
+ * Author: Logan Burkett <Loganb18@uab.edu>
+ * Assignment:  bankbase - EE333 Spring 2022
+ *
+ * Credits: David Green
  */
+
+package edu.uab.Loganb18.bankbase;
+
 public abstract class BankAccount {
 
-  /**
-   * Present balance in account in cents
-   */
+  /** Present balance in account in cents */
   protected int balance;
 
-  /**
-   * (Formal) Name of owner of account
-   */
+  /** (Formal) Name of owner of account */
   protected String name;
 
   /**
@@ -76,11 +76,9 @@ public abstract class BankAccount {
    * @return string containing name of author
    */
   public static String getClassAuthor() {
-    return "David G. Green";
+    return "Team 1";
   }
 
-  /**
-   * Assess monthly fee on account (not implemented)
-   */
+  /** Assess monthly fee on account (not implemented) */
   public abstract void assessMonthlyFee();
 }
